@@ -1,5 +1,5 @@
 {
-  "name": "agentflow",
+  "name": "@gabrielloopes33/agentflow",
   "version": "1.0.0",
   "description": "Orquestrador de agentes de IA para fluxos de desenvolvimento",
   "main": "src/orchestrator.js",
