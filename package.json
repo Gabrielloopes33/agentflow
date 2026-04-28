@@ -4,7 +4,7 @@
   "description": "Orquestrador de agentes de IA para fluxos de desenvolvimento",
   "main": "src/orchestrator.js",
   "bin": {
-    "agentflow": "./bin/cli.js"
+    "agentflow": "bin/cli.js"
   },
   "files": [
     "bin/",
@@ -18,7 +18,12 @@
     "prepublishOnly": "npm test"
   },
   "keywords": [
-    "ai", "agents", "orchestration", "developer-tools", "llm", "workflow"
+    "ai",
+    "agents",
+    "orchestration",
+    "developer-tools",
+    "llm",
+    "workflow"
   ],
   "author": "",
   "license": "MIT",
