@@ -1,0 +1,39 @@
+{
+  "name": "agentflow",
+  "version": "1.0.0",
+  "description": "Orquestrador de agentes de IA para fluxos de desenvolvimento",
+  "main": "src/orchestrator.js",
+  "bin": {
+    "agentflow": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint src/ bin/",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai", "agents", "orchestration", "developer-tools", "llm", "workflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "peerDependencies": {
+    "@anthropic-ai/sdk": ">=0.20.0"
+  },
+  "peerDependenciesMeta": {
+    "@anthropic-ai/sdk": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
